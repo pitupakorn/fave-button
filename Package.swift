@@ -5,7 +5,7 @@ let package = Package(
     name: "FavButton",
     platforms: [.iOS(.v12)],
     products: [
-        .library(name: "fave-button", targets: ["fave-button"])
+        .library(name: "fave-button", targets: ["Source"])
     ],
     targets: [
         .target(
